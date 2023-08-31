@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100vh;
+    width: 100vw;
+    
+    background-color: red;
+}
+
+#nav{
+    height: 5vh;
+    width: 100%;
+    background-color: bisque;
+    align-items:center;
+    justify-content: space-between;
+    gap: 20px;
+}
+#top{
+    width: 100%;
+    height: 60%;
+    background-position: center;background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/667024182/photo/the-morning-mist.webp?b=1&s=170667a&w=0&k=20&c=DevPGvdEaRrjyW3pEs-9wk2N8WFjkvvgrqhotHB5TFE=);
+}
+#overlay{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.429);
+}
+#bover{
+    height: 100px;
+    width: 100px;
+    background-color: paleturquoise;
+}
+#text{
+   
+    position:absolute;
+    bottom:20%;
+    display: flex;
+     padding: 0 10vw;
+     justify-content: space-between;
+     align-items:center;
+     color:blanchedalmond;
+
+    width: 100%;
+    /* background-color: rgb(0, 0, 0); */
+    font-style: italic;
+}
+#text-r i{
+    color: antiquewhite;
+    size: 10px;
+}
+#text h1{
+    font-family:cursive;
+    font-size: 6vw;
+}
+#bottom{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(232, 143, 55);
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+#bottom1{
+    height: 100%;
+    width: 25%;
+   background-position: center;
+   display: flex;
+   align-items:center;
+   position: relative;
+   
+    /* background-color: lightsalmon; */
+    background-image:url(https://media.istockphoto.com/id/1204704329/photo/red-deer.jpg?s=612x612&w=0&k=20&c=pNFu-8ffCD5a4mXPfCHk_8dQYhXSlP64zbc2EHhW4QM=);
+}
+#text-r{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+#text-r p{
+    font-size: 12px;
+    width: 40%;
+}
+#bottom2{
+    height: 100%;
+    position: relative;
+
+    width: 25%;
+        background-position: top;
+    /* background-color: rgb(122, 255, 253);*/
+    background-image: url(https://media.istockphoto.com/id/802787854/vector/vector-indian-jungle-rainforest-illustration-with-animals.jpg?s=612x612&w=0&k=20&c=j464iyWmSE1v0kqDzuADoaUZeG8A6nCfOcGrELeSf64=);
+}
+#bottom3{
+    height:100%;
+    width: 25%;
+    background-position: cover;
+    background-position:center;
+    /* background-color: rgb(196, 218, 72); */
+    background-image:url(https://media.istockphoto.com/id/635812884/photo/exotic-blue-green-and-striped-background-texture-peacock-birds-feather.webp?b=1&s=170667a&w=0&k=20&c=4G0v5irYCl_Gw3omvS7c-TIcXxoywHpspdEUyfgKYAY=);
+}
+#bottom4{
+    height: 100%;
+    width: 25%;
+    /* background-color:orchid; */
+    background-image:url(https://plus.unsplash.com/premium_photo-1664004040186-c0be7168b6ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2F0ZXIlMjBmYWxsfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60);
+}
